@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  color: #333;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.number-display{
+  color: #007bff;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.buttons, .divisible-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.control-button, .divisible-button, .remove-button{
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.3);
+  padding: 30px;
+  border-radius: 45px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+}
+
+.control-button:hover, .divisible-button:hover, .remove-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+.button-container button{
+  background-color: #6c757d;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #495057;
+}
+
+.remove-button {
+  background-color: #dc3545;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
